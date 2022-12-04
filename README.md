@@ -50,5 +50,9 @@ Code CLIP (GitHub) : https://github.com/openai/CLIP
 - Shawn Manuel
 - Abbas Guennoun
 
+# Références : 
+
+- Référence pértinente : https://medium.com/mlearning-ai/having-fun-with-clip-features-part-i-29dff92bbbcd
+
 
 
