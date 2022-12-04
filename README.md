@@ -10,9 +10,9 @@ Cross-modal comparison of high-level representations: an ecologically motivated 
 
 ## Rationnel du projet : 
 
-[^1]: Les processus cognitifs de l'Homme sont controlés par des mécanismes complexes faisant intervenir plusieurs composantes du cerveau permettant la mise en place de schémas psychologiques qui permettent l'analyse et l'interprétation de nouvelles informations.
-[^2]: Le perceptron, unité de base des réseaux de neurones artificiels, est un modèle mathématique initialement inspiré de fonctionnement du neurone humain. Les réseaux de neurones artificiels sont très performants pour la tâche pour laquelle ils ont été entrainés, mais leurs performances baissent dès qu'on dévie de cette tâche. 
-[^3]: L'avènement de réseaux de neurones multimodaux, capables de faire de la reconnaissance en combinant des images et du texte, se rapprocherait des représentations "de haut niveau" des humains.  
+- Les processus cognitifs de l'Homme sont controlés par des mécanismes complexes faisant intervenir plusieurs composantes du cerveau permettant la mise en place de schémas psychologiques qui permettent l'analyse et l'interprétation de nouvelles informations.
+- Le perceptron, unité de base des réseaux de neurones artificiels, est un modèle mathématique initialement inspiré de fonctionnement du neurone humain. Les réseaux de neurones artificiels sont très performants pour la tâche pour laquelle ils ont été entrainés, mais leurs performances baissent dès qu'on dévie de cette tâche. 
+- L'avènement de réseaux de neurones multimodaux, capables de faire de la reconnaissance en combinant des images et du texte, se rapprocherait des représentations "de haut niveau" des humains.  
 
 ## Questions de recherche : 
 
