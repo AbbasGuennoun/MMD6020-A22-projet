@@ -6,7 +6,7 @@
 
 ## Titre du projet : 
 
-    Cross-modal comparison of high-level representations: an ecologically motivated approach to prompt engineering for zero-shot image classification within a multimodal network
+Cross-modal comparison of high-level representations: an ecologically motivated approach to prompt engineering for zero-shot image classification within a multimodal network
 
 ## Rationnel du projet : 
 
