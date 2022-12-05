@@ -1,0 +1,17 @@
+os
+PIL
+numpy
+IPython.display
+collections
+sci-kit learn
+umap
+seaborn
+torch
+skimage
+pkg_resources
+clip
+pandas
+re
+matplotlib.pyplot
+ipywidgets
+math
