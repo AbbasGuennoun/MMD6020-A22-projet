@@ -29,20 +29,21 @@ Cross-modal comparison of high-level representations: an ecologically motivated 
 - Ce modèle a entrainé sur des millions d'images accoompangées de texte, et utilisant plusieurs techniques à savoir : le zero-shot transfer, le 'natural language supervision', et l'apprentissage multimodal.
 
 Article décrivant le développement de CLIP : https://arxiv.org/abs/2103.00020
+
 Code CLIP (GitHub) : https://github.com/openai/CLIP
 
-## Base de données : DITRI
+## Base de données : DIRTI
 
 - Pour comparer les représentations de 'haut niveau' de CLIP et de la cognition humaines, nous avons utilisé une base de données en open-access d'images spécialement préparée pour stimuler l'émotion du 'dégout', et qui a été mise à diposition des chercheurs étudiant cette émotion. (https://zenodo.org/record/167037#.Y4vcM-zMLOQ)
 
 ## Notre étude : 
 
-- Notebook : 
+- Notebook : Le fichier Notebooks contient les différentes étapes du projet, ainsi que les différentes visualisations. Vous y trouverez également des explications supplémentaires. 
 - Article (écrit pour le cours) : 
 
 # Installation
 
-- L'ensemble des libraires et modules nécessaires au fonctionnement et à l'éxecution du Notebook sont sur le fichier environment.yml 
+- L'ensemble des libraires et modules nécessaires au fonctionnement et à l'éxecution du Notebook sont sur le fichier requirements.txt 
 - Pour plus d'informations sur CLIP et son utilisation, veuillez consulter le repo GitHub des auteurs (informations sur le readme) : https://github.com/openai/CLIP#readme
 
 # Auteurs 
