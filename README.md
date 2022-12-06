@@ -36,6 +36,8 @@ Code CLIP (GitHub) : https://github.com/openai/CLIP
 
 - Pour comparer les représentations de 'haut niveau' de CLIP et de la cognition humaines, nous avons utilisé une base de données en open-access d'images spécialement préparée pour stimuler l'émotion du 'dégout', et qui a été mise à diposition des chercheurs étudiant cette émotion. (https://zenodo.org/record/167037#.Y4vcM-zMLOQ)
 
+![alt text](https://github.com/AbbasGuennoun/MMD6020-A22-projet/blob/main/Methods.png?raw=true)
+
 ## Notre étude : 
 
 - Notebook : Le fichier Notebooks contient les différentes étapes du projet, ainsi que les différentes visualisations. Vous y trouverez également des explications supplémentaires. 
