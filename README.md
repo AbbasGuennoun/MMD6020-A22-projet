@@ -8,7 +8,7 @@
 
 Cross-modal comparison of high-level representations: an ecologically motivated approach to prompt engineering for zero-shot image classification within a multimodal network
 
-## Rationnel du projet : 
+## Rationnelle du projet : 
 
 - Les processus cognitifs de l'Homme sont controlés par des mécanismes complexes faisant intervenir plusieurs composantes du cerveau permettant la mise en place de schémas psychologiques qui permettent l'analyse et l'interprétation de nouvelles informations.
 - Le perceptron, unité de base des réseaux de neurones artificiels, est un modèle mathématique initialement inspiré de fonctionnement du neurone humain. Les réseaux de neurones artificiels sont très performants pour la tâche pour laquelle ils ont été entrainés, mais leurs performances baissent dès qu'on dévie de cette tâche. 
@@ -16,9 +16,8 @@ Cross-modal comparison of high-level representations: an ecologically motivated 
 
 ## Questions de recherche : 
 
-- Comparer les schémas cognitifs des humains aux représentations de 'haut niveau' ces réseaux de neurones, et notamment les schémas à l’origine du développement de l’émotion chez l’Homme, en employant des banques de stimuli visuels, accompagnées de variables psychologiques
+-Le but de ce projet est d’employer une banque de stimuli visuels accompagnée de variables psycholinguistiques pour comparer les schémas humains aux représentations de haut niveau développées par CLIP. L’utilisation de telles variables limite les décisions arbitraires et permet d’informer le prompt engineering avec des données écologiquement valides. Spécifiquement, nous voulons savoir si un réseau multimodal, comme CLIP, peut être lié à des données humaines pour aller plus loin que la simple reconnaissance d’objet et interroger des schémas complexes, notamment le dégoût, de manière fiable. 
 
-- Est ce que l'utilisation d'un réseau multimodal permetterait d'aller plus loin que la simple reconnaissance d’objet?
 
 # Méthodologie 
 
@@ -36,12 +35,33 @@ Code CLIP (GitHub) : https://github.com/openai/CLIP
 
 - Pour comparer les représentations de 'haut niveau' de CLIP et de la cognition humaines, nous avons utilisé une base de données en open-access d'images spécialement préparée pour stimuler l'émotion du 'dégout', et qui a été mise à diposition des chercheurs étudiant cette émotion. (https://zenodo.org/record/167037#.Y4vcM-zMLOQ)
 
+## Schéma du pipeline du projet : 
+
 ![méthode](https://github.com/AbbasGuennoun/MMD6020-A22-projet/blob/main/Figures/Methods.png)
 
 ## Notre étude : 
 
-- Notebook : Le fichier Notebooks contient les différentes étapes du projet, ainsi que les différentes visualisations. Vous y trouverez également des explications supplémentaires. 
-- Article (écrit pour le cours) : 
+### Notebook : 
+
+- La version 1 : Premiers essais des modèles avec les premières visualisations, pre-processing des images, et visualisations de la base de données
+
+- La version 2 : Réduction de la dimensionnalité UMAP (Uniform Manifold and Projection), entraînement du modèle de comparaison et visualisation du nombre de K optimal en fonction de la perte. 
+
+- La version 3 : Métriques de performances des 4 modèles (baseline et modèles écologiquement motivés), courbes ROC, nettoyage des autres parties du code
+
+### Résumé : 
+
+Le projet comporte deux phases : 
+
+- Une première phase constituant la "BASELINE" de l'étude où on a testé CLIP (modèle pré-entraîné) et entraîné le modèle KNN de comparaison afin d'avoir une base de comparaison lorsque les modèles sont écologiquement motivées. 
+
+- Une deuxième phase où les deux modèles sont écologiquement motivés (ajout d'une variable psycholinguistique au niveau des textes utilisés)
+
+A noter qu'avant l'entame des deux phases, les images ainsi que les textes ont été encodés avec CLIP (voir schéma pipeline)
+
+### Article (écrit pour le cours) : 
+
+![méthode](https://github.com/AbbasGuennoun/MMD6020-A22-projet/blob/main/Figures/Article.png)
 
 # Installation
 
@@ -55,7 +75,7 @@ Code CLIP (GitHub) : https://github.com/openai/CLIP
 
 # Références : 
 
-- Référence pértinente : https://medium.com/mlearning-ai/having-fun-with-clip-features-part-i-29dff92bbbcd
+- Référence pértinente d'un blogpost autour de CLIP : https://medium.com/mlearning-ai/having-fun-with-clip-features-part-i-29dff92bbbcd
 
 
 
