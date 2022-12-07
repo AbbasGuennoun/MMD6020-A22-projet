@@ -14,9 +14,9 @@ Cross-modal comparison of high-level representations: an ecologically motivated 
 - Le perceptron, unité de base des réseaux de neurones artificiels, est un modèle mathématique initialement inspiré de fonctionnement du neurone humain. Les réseaux de neurones artificiels sont très performants pour la tâche pour laquelle ils ont été entrainés, mais leurs performances baissent dès qu'on dévie de cette tâche. 
 - L'avènement de réseaux de neurones multimodaux, capables de faire de la reconnaissance en combinant des images et du texte, se rapprocherait des représentations "de haut niveau" des humains.  
 
-## Questions de recherche : 
+## Question de recherche : 
 
--Le but de ce projet est d’employer une banque de stimuli visuels accompagnée de variables psycholinguistiques pour comparer les schémas humains aux représentations de haut niveau développées par CLIP. L’utilisation de telles variables limite les décisions arbitraires et permet d’informer le prompt engineering avec des données écologiquement valides. Spécifiquement, nous voulons savoir si un réseau multimodal, comme CLIP, peut être lié à des données humaines pour aller plus loin que la simple reconnaissance d’objet et interroger des schémas complexes, notamment le dégoût, de manière fiable. 
+Le but de ce projet est d’employer une banque de stimuli visuels accompagnée de variables psycholinguistiques pour comparer les schémas humains aux représentations de haut niveau développées par CLIP. L’utilisation de telles variables limite les décisions arbitraires et permet d’informer le prompt engineering avec des données écologiquement valides. Spécifiquement, nous voulons savoir si un réseau multimodal, comme CLIP, peut être lié à des données humaines pour aller plus loin que la simple reconnaissance d’objet et interroger des schémas complexes, notamment le dégoût, de manière fiable. 
 
 
 # Méthodologie 
