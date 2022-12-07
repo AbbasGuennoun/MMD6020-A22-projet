@@ -62,7 +62,7 @@ A noter qu'avant l'entame des deux phases, les images ainsi que les textes ont �
 ### Article (écrit pour le cours) : 
 
 - Présentation de la rationnelle de l'étude 
-- Explication de la méthodologue 
+- Explication de la méthodologie 
 - Exposition des résultats 
 - Discussion des résultats 
 - Perspectives d'avenir
