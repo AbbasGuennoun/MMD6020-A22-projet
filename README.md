@@ -61,6 +61,12 @@ A noter qu'avant l'entame des deux phases, les images ainsi que les textes ont �
 
 ### Article (écrit pour le cours) : 
 
+- Présentation de la rationnelle de l'étude 
+- Explication de la méthodologue 
+- Exposition des résultats 
+- Discussion des résultats 
+- Perspectives d'avenir
+
 ![méthode](https://github.com/AbbasGuennoun/MMD6020-A22-projet/blob/main/Figures/Article.png)
 
 # Installation
