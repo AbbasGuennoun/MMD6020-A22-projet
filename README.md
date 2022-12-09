@@ -6,7 +6,7 @@
 
 ## Titre du projet : 
 
-Cross-modal comparison of high-level representations: an ecologically motivated approach to prompt engineering for zero-shot image classification within a multimodal network
+An ecologically motivated approach to prompt engineering for zero-shot image classification with CLIP
 
 ## Rationnelle du projet : 
 
@@ -37,7 +37,7 @@ Code CLIP (GitHub) : https://github.com/openai/CLIP
 
 ## Schéma du pipeline du projet : 
 
-![méthode](https://github.com/AbbasGuennoun/MMD6020-A22-projet/blob/main/Figures/Methods.png)
+![méthode](https://github.com/AbbasGuennoun/MMD6020-A22-projet/blob/main/Figures/Pipeline.png)
 
 ## Notre étude : 
 
@@ -67,7 +67,7 @@ A noter qu'avant l'entame des deux phases, les images ainsi que les textes ont �
 - Discussion des résultats 
 - Perspectives d'avenir
 
-![méthode](https://github.com/AbbasGuennoun/MMD6020-A22-projet/blob/main/Figures/Article.png)
+![méthode](https://github.com/AbbasGuennoun/MMD6020-A22-projet/blob/main/Figures/Article2.png)
 
 # Installation
 
